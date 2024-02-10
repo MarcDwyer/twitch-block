@@ -34,10 +34,6 @@
     {
       "resources": ["contentStyle.css", "icon-128.png", "icon-32.png"],
       "matches": []
-    },
-    {
-      "resources": ["src/pages/content/worker.ts"],
-      "matches": ["<all_urls>"]
     }
   ]
 }

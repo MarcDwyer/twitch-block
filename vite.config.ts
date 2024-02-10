@@ -67,10 +67,5 @@ export default defineConfig({
     outDir,
     sourcemap: isDev,
     emptyOutDir: !isDev,
-    rollupOptions: {
-      input: {
-        worker: "src/pages/content/worker.ts",
-      },
-    },
   },
 });
